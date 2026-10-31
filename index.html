@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una carta para ti</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- PANTALLA 1: EL SOBRE CERRADO -->
+    <div id="pantalla-sobre" class="pantalla-sobre">
+        <p class="instruccion">Haz clic en el sobre para abrir 👇</p>
+        <!-- Reemplaza "sobre.png" por el nombre exacto de tu imagen -->
+        <img src="Imagenes/Carta.png" alt="Abrir carta" id="boton-abrir" class="imagen-sobre">
+    </div>
+
+    <!-- PANTALLA 2: LA CARTA (Empieza oculta) -->
+    <main class="carta-container oculto" id="carta">
+        <div class="cinta"></div>
+        
+        <header>
+            <nav>
+                <div class="logo-container">
+                    <span style="font-size: 50px;">🌹</span>
+                </div>
+            </nav>
+            <h1>Para ti</h1>
+        </header>
+
+        <section class="contenido-carta">
+            <p>Hola <span class="nombre-ella"></span>,</p>
+            
+            <p>
+                Sé que nos conocimos hace poco, pero desde el primer momento en que hablamos, hubo algo en ti que me llamó muchísimo la atención. No sé si fue tu forma de ver las cosas, tu sonrisa o esa manera tan única que tienes de ser, pero lo cierto es que no puedo dejar de pensar en ti.
+            </p>
+
+            <p>
+                A veces me pongo a pensar en lo raro que es el destino. De todas las personas en el mundo, coincidimos tú y yo. Y aunque apenas estamos empezando a conocernos, siento que quiero tomarme el tiempo de descubrir cada detalle de tu personalidad, de tus sueños y de esas pequeñas cosas que te hacen feliz.
+            </p>
+
+            <p>
+                Esta carta es solo un pequeño detalle para recordarte lo especial que me pareces. No quiero apresurar nada, solo quiero dejarte saber que me encanta hablar contigo, que disfruto muchísimo nuestras conversaciones (incluso las de la madrugada) y que tienes una cualidad envidiable para sacarme una sonrisa.
+            </p>
+
+            <p>
+                Ojalá que esto sea el inicio de algo muy bonito. Sin presiones, sin prisas, pero con muchas ganas de seguir compartiendo momentos a tu lado.
+            </p>
+        </section>
+
+        <div class="firma">
+            Con cariño,<br>
+            Daniel
+        </div>
+    </main>
+
+    <!-- Conectamos el JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
